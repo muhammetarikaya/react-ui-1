@@ -1,0 +1,52 @@
+.menuItem {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: #00193d;
+  color: #ffffff;
+  cursor: pointer;
+  border-bottom: 1px solid #000f28;
+  -webkit-transition: background-color 0.3s;
+  -moz-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  -ms-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+
+  .selected {
+    background-color: #3fb0e8;
+  }
+}
+
+
+.menuItem.selected {
+  background-color: #00b1ea;
+}
+
+.menuItem:hover {
+  background-color: #00b1ea;
+}
+
+.menuItemIcon {
+  position: relative;
+  width: 32px;
+  height: 50px;
+  background-size: 32px 32px;
+  padding-top: 24px;
+  margin: 0 auto;
+}
+
+.menuItemText {
+  position: relative;
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 8px;
+}
+
+
+
+.img{
+  width: 32px;
+  height: 32px;
+}
+

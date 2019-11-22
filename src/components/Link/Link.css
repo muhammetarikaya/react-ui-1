@@ -1,0 +1,28 @@
+.topMenuItem {
+  position: relative;
+  width: auto;
+  height: 60px;
+  line-height: 60px;
+  font-size: 17px;
+  float: right;
+  cursor: pointer;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  -ms-transition: all 0.1s;
+  transition: all 0.1s;
+  border-left: 1px solid #65bce7;
+}
+
+.text {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  transition: 1s all;
+
+  &:hover{
+    text-decoration: underline;
+  }
+}

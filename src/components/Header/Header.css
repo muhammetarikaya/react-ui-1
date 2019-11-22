@@ -1,0 +1,248 @@
+@import url('../variables.css');
+
+.logoContainer {
+  position: absolute;
+  cursor: pointer;
+  width: 100px;
+  height: 60px;
+  background-color: var(--brand-bg-color);
+  left: 0;
+  top: 0;
+  z-index: 10000;
+}
+
+.turkcellLogo {
+  position: fixed;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  background-image: url('./turkcell_logo.png');
+  background-size: 32px 32px;
+  margin-left: 34px;
+  margin-top: 14px;
+}
+
+.headerContainer {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  /* background-color: #3fb0e8; */
+  background-color: var(--brand-bg-color);
+  left: 0;
+  top: 0;
+  z-index: 9000;
+}
+
+.logo {
+  position: absolute;
+  width: 168px;
+  height: 41px;
+  background-size: 168px 43px;
+  top: 11px;
+  left: 102px;
+  background-image: url('../Images/logo3.png');
+
+}
+
+.topMenuItem {
+  position: relative;
+  width: auto;
+  height: 60px;
+  line-height: 60px;
+  font-size: 17px;
+  float: right;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition-duration: 0.1s;
+  transition-timing-function: initial;
+  transition-delay: initial;
+  border-left: var(--brand-bg-color);
+
+  :hover {
+    background-color: var(--brand-bg-color);
+    color: white;
+  }
+}
+
+.topMenuItemIcon {
+  display: none;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 14px;
+  top: 14px;
+
+  img {
+    width: 32px;
+    height: 32px;
+  }
+
+  img {
+    border-width: 0;
+    vertical-align: middle;
+  }
+
+  .cssmenu {
+    > ul {
+      position: relative;
+    }
+  }
+}
+
+.cssmenu {
+  width: auto;
+  zoom: 1;
+
+  & > ul {
+    background-image: url('');
+    margin: 0;
+    padding: 0;
+  }
+
+  .cssmenu {
+    > ul {
+      li {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        &:hover {
+          ul {
+            opacity: 1;
+            visibility: visible;
+            margin: 0;
+            color: rgb(0, 0, 0);
+            z-index: 2;
+            top: 64px;
+            left: 0;
+          }
+        }
+      }
+
+      > li {
+        float: left;
+        position: relative;
+
+        > a {
+          padding: 21px 0;
+          display: block;
+          color: white;
+          font-size: 17px;
+          text-decoration-line: none;
+          text-transform: uppercase;
+          line-height: 17px;
+
+          > span {
+            line-height: 18px;
+            font-size: 17px;
+          }
+        }
+
+        &:hover {
+          > a {
+            text-shadow: rgba(122, 42, 26, 0.64) 0 -1px 0;
+          }
+        }
+      }
+
+      ul {
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        top: 60px;
+        margin: 0px;
+        padding: 0px;
+        z-index: -1;
+
+        li {
+          list-style-type: none;
+          padding: 0px;
+          margin: 0px;
+          width: 100%;
+
+          a {
+            display: block;
+            color: white;
+            padding: 2px 6px;
+            font-size: 17px;
+            text-decoration-line: none;
+            text-transform: uppercase;
+            border-left: 4px solid transparent;
+            transition-duration: 0.05s;
+            transition-timing-function: ease-in-out;
+            transition-delay: initial;
+            font-family: turkcell_saturademi, Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            &:hover {
+              border-left: 4px solid rgb(255, 224, 0);
+            }
+          }
+        }
+      }
+    }
+  }
+  a {
+    color: var(--brand-bg-color);
+    cursor: pointer;
+    text-decoration-line: underline;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+  .fontMedium {
+    font-family: turkcell_saturademi, Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  .topMenuItem {
+    .text {
+      padding-left: 20px;
+      padding-right: 20px;
+      text-align: center;
+    }
+  }
+  [role='button'] {
+    cursor: pointer;
+  }
+  .tutorialTipRight {
+    background-color: rgb(255, 224, 0);
+    position: absolute;
+    max-width: 530px;
+    height: auto;
+    z-index: 100000000;
+    padding: 20px;
+    color: rgb(51, 51, 51);
+    opacity: 0.95;
+    right: 100px;
+    top: 70px;
+  }
+  .tutorialItem {
+    position: relative;
+    margin: 0 0 20px;
+  }
+  .warning-icon {
+    position: relative;
+    background-image: url('./warning-icon.png');
+    width: 50px;
+    height: 45px;
+    background-size: 50px 45px;
+    float: left;
+    margin-right: 20px;
+  }
+  .tutorial-tip-text {
+    position: relative;
+    float: right;
+    right: 0px;
+    font-size: 19px;
+    font-family: turkcell_saturaregular, Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: rgb(51, 51, 51);
+    width: 380px;
+  }
+  .arrowTopRight {
+    position: absolute;
+    top: -5px;
+    right: 6px;
+    width: 0;
+    height: 0;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid rgb(255, 224, 0);
+    border-left: 5px solid transparent;
+  }
+}

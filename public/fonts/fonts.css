@@ -1,0 +1,59 @@
+@font-face {
+	font-family: 'turkcell_saturaregular';
+	src: url('turkcell_satura_regular-webfont.eot');
+	src: url('turkcell_satura_regular-webfont.eot?#iefix')
+		format('embedded-opentype'),
+		url('turkcell_satura_regular-webfont.woff2') format('woff2'),
+		url('turkcell_satura_regular-webfont.woff') format('woff'),
+		url('turkcell_satura_regular-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'turkcell_saturademi';
+	src: url('turkcell_satura_demi-webfont.eot');
+	src: url('turkcell_satura_demi-webfont.eot?#iefix')
+		format('embedded-opentype'), url('turkcell_satura_demi-webfont.woff2')
+		format('woff2'), url('turkcell_satura_demi-webfont.woff')
+		format('woff'), url('turkcell_satura_demi-webfont.ttf')
+		format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'turkcell_saturamedium';
+	src: url('turkcell_satura_medium-webfont.eot');
+	src: url('turkcell_satura_medium-webfont.eot?#iefix')
+		format('embedded-opentype'),
+		url('turkcell_satura_medium-webfont.woff2') format('woff2'),
+		url('turkcell_satura_medium-webfont.woff') format('woff'),
+		url('turkcell_satura_medium-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'turkcell_saturaitalic';
+	src: url('turkcell_satura_italic-webfont.eot');
+	src: url('turkcell_satura_italic-webfont.eot?#iefix')
+		format('embedded-opentype'),
+		url('turkcell_satura_italic-webfont.woff2') format('woff2'),
+		url('turkcell_satura_italic-webfont.woff') format('woff'),
+		url('turkcell_satura_italic-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Glyphicons Halflings';
+	src: url('glyphicons-halflings-regular.eot');
+	src: url('glyphicons-halflings-regular.eot?#iefix')
+		format('embedded-opentype'), url('glyphicons-halflings-regular.woff2')
+		format('woff2'), url('glyphicons-halflings-regular.woff')
+		format('woff'), url('glyphicons-halflings-regular.ttf')
+		format('truetype'),
+		url('glyphicons-halflings-regular.svg#glyphicons_halflingsregular')
+		format('svg');
+}

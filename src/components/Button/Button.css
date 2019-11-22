@@ -1,0 +1,34 @@
+.blueAddBtn {
+  float: right;
+  min-width: 100px;
+  height: 30px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+  color: #000;
+  background-color: #ffe000;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0 1px 1px 0;
+  -moz-box-shadow: rgba(0, 0, 0, 0.4) 0 1px 1px 0;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 32px;
+  padding-left: 36px;
+  padding-right: 16px;
+  font-family: 'turkcell_saturademi', Gotham, 'Helvetica Neue', Helvetica,
+    Arial, sans-serif;
+}
+
+.icon {
+  position: absolute;
+  left: 7px;
+  top: 7px;
+  width: 16px;
+  height: 16px;
+  background-size: 16px 16px;
+}

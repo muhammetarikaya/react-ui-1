@@ -1,0 +1,14 @@
+.leftMenuContainer {
+  position: fixed;
+  width: 100px;
+  height: 100%;
+  background-color: #00193d;
+  left: 0;
+  top: 0;
+  z-index: 8000;
+}
+
+.menuItemEmpty{
+  width: 100px;
+  height: 60px;
+}
