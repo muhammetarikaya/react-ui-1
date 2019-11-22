@@ -17,9 +17,9 @@ class Header extends React.Component {
     return (
       <header className={s.headerContainer}>
         <div className={s.logoContainer}>
-          <div className={s.turkcellLogo} />
+          <div className={s.appLogo} />
         </div>
-        <div className={s.logo} />
+        <div/>
         <Navigation />
       </header>
     );

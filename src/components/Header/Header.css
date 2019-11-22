@@ -11,12 +11,12 @@
   z-index: 10000;
 }
 
-.turkcellLogo {
+.appLogo {
   position: fixed;
   width: 32px;
   height: 32px;
   cursor: pointer;
-  background-image: url('./turkcell_logo.png');
+  background-image: url('./logo.png');
   background-size: 32px 32px;
   margin-left: 34px;
   margin-top: 14px;
@@ -40,7 +40,7 @@
   background-size: 168px 43px;
   top: 11px;
   left: 102px;
-  background-image: url('../Images/logo3.png');
+  background-image: url('./logo.png');
 
 }
 
