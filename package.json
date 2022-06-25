@@ -35,7 +35,7 @@
     "less": "^2.7.3",
     "less-loader": "^4.0.5",
     "less-vars-to-js": "^1.2.1",
-    "node-fetch": "^1.7.3",
+    "node-fetch": "^2.6.7",
     "normalize.css": "^7.0.0",
     "passport": "^0.4.0",
     "passport-facebook": "^2.1.1",
