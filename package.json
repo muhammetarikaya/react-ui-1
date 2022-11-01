@@ -100,7 +100,7 @@
     "husky": "^0.14.3",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^21.2.1",
-    "jscodeshift": "^0.3.32",
+    "jscodeshift": "^0.14.0",
     "lint-staged": "^5.0.0",
     "markdown-it": "^8.4.0",
     "mkdirp": "^0.5.1",
