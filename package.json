@@ -31,7 +31,7 @@
     "immutable": "^3.8.2",
     "isomorphic-style-loader": "^4.0.0",
     "json-stringify-safe": "^5.0.1",
-    "jsonwebtoken": "^8.1.0",
+    "jsonwebtoken": "^9.0.0",
     "less": "^2.7.3",
     "less-loader": "^4.0.5",
     "less-vars-to-js": "^1.2.1",
